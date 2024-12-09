@@ -12,6 +12,8 @@
 ## Guidelines availability
 Canonical version of the Aspen Community developer guidelines should be stored in a file named developer-guidelines.md in a repository dedicated to storing community guidelines. Content of the guidelines may be mirrored to [https://dev.aspendiscovery.org/](https://dev.aspendiscovery.org/)
 
+The canonical version of this document will always be available at https://github.com/Aspen-Discovery/developer-handbook/blob/main/developer-guidelines.md
+
 ## Committing Code
 
 ### General Rules
