@@ -12,9 +12,9 @@
 ## Guidelines availability
 Canonical version of the Aspen Community developer guidelines should be stored in a file named developer-guidelines.md in a repository dedicated to storing community guidelines. Content of the guidelines may be mirrored to [https://dev.aspendiscovery.org/](https://dev.aspendiscovery.org/)
 
-## **Committing Code**
+## Committing Code
 
-### **General Rules**
+### General Rules
 
 #### Internal documentation
 * All functions/methods should have documentation in the proper format for that language  
@@ -25,7 +25,7 @@ Canonical version of the Aspen Community developer guidelines should be stored i
 * As much as possible, make sure a commit does not contain unnecessary whitespace changes. This can be checked with the command `git diff --check`
 * If large amounts of formatting are necessary, the changes should be added to a whitespace-only commit.
 
-### **Commit Messages**
+### Commit Messages
 As a general rule, your commit message should start with a single line that's no more than about 50 characters and that describes the commit concisely. If you feel the need for more detailed explanations, create a blank line, followed by a more detailed explanation.
 
 For consistency, try and use the imperative present tense when creating a message. Examples:
@@ -45,7 +45,7 @@ If possible, Add test plans to prove the patch does what it claims to do
 
 In order to associate commits with GitHub Issues, the commit message should indicate one or more issue number and (optionally) a state change for the story. The commit message should start with square brackets containing a hash mark followed by the issue number. For example:
 
-### **Message Template**
+### Message Template
 
 Based on the [blog post](http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html) by [tbaggery](http://tbaggery.com/), here is a template to use as guideline for commit messages:
 
