@@ -30,7 +30,7 @@ The canonical version of this document will always be available at https://githu
 ### Commit Messages
 As a general rule, your commit message should start with a single line that's no more than about 50 characters and that describes the commit concisely. If you feel the need for more detailed explanations, create a blank line, followed by a more detailed explanation.
 
-For consistency, try and use the imperative present tense when creating a message. Examples:
+For consistency, try to use the imperative present tense when creating a message. Examples:
 * Use "Add tests for" instead of "I added tests for"  
 * Use "Change x to y" instead of "Changed x to y"
 
