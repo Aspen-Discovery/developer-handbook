@@ -45,14 +45,14 @@ But a larger or more obscure change may require a paragraph or more explanation.
 
 If possible, Add test plans to prove the patch does what it claims to do
 
-In order to associate commits with GitHub Issues, the commit message should indicate one or more issue number and (optionally) a state change for the story. The commit message should start with square brackets containing a hash mark followed by the issue number. For example:
+In order to associate commits with GitHub Issues, the commit message should start with one and only one issue number and (optionally) a state change for the story. If the commit involves multiple issues, use the most specific issue possible.
 
 ### Message Template
 
 Based on the [blog post](http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html) by [tbaggery](http://tbaggery.com/), here is a template to use as guideline for commit messages:
 
 ```
-#issueid <optional state> (50 chars or so) summary of changes
+DIS-<ID> <optional state> (50 chars or so) Summary of change in imperative present tense
 
 More detailed explanatory text, if necessary. Wrap it to about 72
 characters or so. 
