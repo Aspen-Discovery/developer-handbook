@@ -78,7 +78,7 @@ When a branch is ready to be integrated into the “default” branch, the devel
 
 ## Personal Data and GDPR
 
-As Aspen is used internationally, GDPR should be taken into consideration. GDPR is in place across Europe and is a set of data protection rules. It limits what organizations can do with personal data. 
+As Aspen is used internationally, [GDPR](https://gdpr-info.eu/) should be taken into consideration. GDPR is in place across Europe and is a set of data protection rules. It limits what organizations can do with personal data. 
 
 ### Personal Data
 
@@ -88,14 +88,14 @@ Any piece of information that relates to an identified or identifiable individua
 
 Where new developments require the processing and / or storage of Personal Data, there are a few steps developers should take to ensure GDPR compliance:
 
-* Consider whether the personal data needs to be stored in Aspen or whether it can be stored in the LMS.  
+* Consider whether the personal data needs to be stored in Aspen or whether it can be stored in the Library Management System (LMS).  
 * Consider how long this data needs to be stored and update the DatabaseCleanUp.java script to ensure the personal data is removed or anonymized at the earliest opportunity. 
 
-## Releaseing
+## Releasing
 
 # Release candidates
-* 10 days Prior to release, a releease candidate ( e.g. 24.12.00-rc.1 ) will be tagged
-* If commits are added to the branch of that tagged release, a new release candidate ( e.g. 24.12.00-rc.2 ) will be tagged at the end of the day
+* 10 days Prior to release, a release candidate ( e.g. 24.12.00-RC1 ) will be tagged
+* If commits are added to the branch of that tagged release, a new release candidate ( e.g. 24.12.00-RC2 ) will be tagged at the end of the day
  
 ## TBD: Aspen Community Code of Conduct
 A document that establishes expectations regarding the behavior of contributors and participants.  It often helps communities to build a positive social atmosphere.   
