@@ -89,7 +89,11 @@ Any piece of information that relates to an identified or identifiable individua
 Where new developments require the processing and / or storage of Personal Data, there are a few steps developers should take to ensure GDPR compliance:
 
 * Consider whether the personal data needs to be stored in Aspen or whether it can be stored in the LMS.  
-* Consider how long this data needs to be stored and update the DatabaseCleanUp.java script to ensure the personal data is removed or anonymized at the earliest opportunity. 
+* Consider how long this data needs to be stored and update the DatabaseCleanUp.java script to ensure the personal data is removed or anonymized at the earliest opportunity.
+
+## Managing Issue Assignment
+* Don't reassign issues without the consent of the current assignee
+* If no response is made in a reasonable time frame ( 1 week for non-critical issues, 48 hours for critical issues ), issues may be reassigned without consent
 
 ## Releaseing
 
